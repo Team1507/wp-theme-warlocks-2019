@@ -37,39 +37,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link navbar-top-element" href="#">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-top-element" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-top-element" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About FIRST</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu</a>
-                                    <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Submenu action</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-top-element" href="#">Resources</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-top-element" href="#">News</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-top-element" href="#">Meet Us</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle navbar-top-element" href="#">Media</a>
-                        </li>
-                    </ul>
+                    <?php 
+                        wp_nav_menu(array(
+                            'container_class' => 'main-nav',
+                            'theme_location' => 'primary',
+                            'container' => false,
+                            'items_wrap' => '<ul class="navbar-nav">%3$s</ul>',
+                            'walker' => new Header_Nav_Menu()
+                        )); 
+                    ?>
                 </div>
                 <div class="pull-right d-none d-lg-block">
                     <a href="https://www.facebook.com/Warlocks1507" target="_blank" class="navbar-social-links" alt="Facebook"><span class="fab fa-facebook-f"> </span></a>
