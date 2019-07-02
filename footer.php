@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-copyright text-center py-3">Copyright &copy; 2019 Lockport Robotics Inc. All rights reserved.</div>
+            <div class="footer-copyright text-center py-3">Copyright &copy; <?php echo date("Y"); ?> Lockport Robotics Inc. All rights reserved.</div>
         </footer>
         <!-- Footer -->
 
