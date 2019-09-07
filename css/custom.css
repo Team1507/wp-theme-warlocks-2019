@@ -39,6 +39,11 @@ div.post-footer {
     padding-bottom: 5px;
 }
 
+/* Page Specific Styles */
+.page-content h1, .page-content h2, .page-content h3, .page-content h4 {
+    text-align: center;
+}
+
 /* Template Footer */
 .footer-links {
     background-color: #000063;
