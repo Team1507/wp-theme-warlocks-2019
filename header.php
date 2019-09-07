@@ -16,7 +16,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/custom.css">
 
-        <title>Hello, world!</title>
+        <title><?php echo trim(wp_title( '', false, 'right' )) == "" ? "Warlocks 1507" : "Warlocks 1507 - ".wp_title( '', false, 'right' ); ?></title>
         <?php wp_head(); ?>
     </head>
     <body>
