@@ -6,7 +6,7 @@
                     <div class="col-md-6 mt-md-0 mt-3">
                         <h5 class="text-uppercase">Contact Us</h5>
                         <p>Lockport Robotics Inc. is a registered 501(c)(3) nonprofit educational charity that inspires local students to pursue careers in STEM related fields.</p>
-                        <p><span class="fas fa-home fa-fw"></span> 250 Lincoln Avenue, Lockport, NY 14094<br><span class="fas fa-phone fa-fw"></span> (716) 478-4520 <br><span class="far fa-envelope fa-fw"></span> warlocks@warlocks1507.com</p>
+                        <p><span class="fas fa-home fa-fw"></span> 250 Lincoln Avenue, Lockport, NY 14094<br><span class="fas fa-phone fa-fw"></span> (716) 478-4520 <br><span class="far fa-envelope fa-fw"></span> contact@warlocks1507.com</p>
 
                     </div>
                     <hr class="clearfix w-100 d-md-none pb-3">
@@ -14,16 +14,16 @@
                         <h5 class="text-uppercase">News and Media</h5>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="#!"><span class="far fa-newspaper fa-fw"></span> General News</a>
+                                <a href="<?php echo get_site_url()."/category/general-news/"; ?>"><span class="far fa-newspaper fa-fw"></span> General News</a>
                             </li>
                             <li>
-                                <a href="#!"><span class="fas fa-rss fa-fw"></span> Warlocks Blog</a>
+                                <a href="<?php echo get_site_url()."/category/warlocks-blog/"; ?>"><span class="fas fa-rss fa-fw"></span> Warlocks Blog</a>
                             </li>
                             <li>
-                                <a href="#!"><span class="far fa-image fa-fw"></span> Photo Gallery</a>
+                                <a href="<?php echo get_site_url()."/photos/"; ?>"><span class="far fa-image fa-fw"></span> Photo Gallery</a>
                             </li>
                             <li>
-                                <a href="#!"><span class="far fa-calendar-alt fa-fw"></span> Calendar</a>
+                                <a href="<?php echo get_site_url()."/our-calendar/"; ?>"><span class="far fa-calendar-alt fa-fw"></span> Calendar</a>
                             </li>
                         </ul>
                     </div>
