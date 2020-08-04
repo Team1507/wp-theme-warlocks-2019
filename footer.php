@@ -39,6 +39,9 @@
                             <li>
                                 <a href="https://www.instagram.com/warlocks_1507" target="_blank"><span class="fab fa-instagram fa-fw"></span> Instagram</a>
                             </li>
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCA-tgW0KfEPSf3QUVkiKPJQ" target="_blank"><span class="fab fa-youtube fa-fw"></span> YouTube</a>
+                            </li>
                         </ul>
                     </div>
                 </div>

@@ -51,6 +51,7 @@
                     <a href="https://www.facebook.com/Warlocks1507" target="_blank" class="navbar-social-links" alt="Facebook"><span class="fab fa-facebook-f"> </span></a>
                     <a href="https://twitter.com/Warlocks1507" target="_blank" class="navbar-social-links" alt="Twitter"><span class="fab fa-twitter"> </span></a>
                     <a href="https://www.instagram.com/warlocks_1507" target="_blank" class="navbar-social-links" alt="Instagram"><span class="fab fa-instagram"> </span></a>
+                    <a href="https://www.youtube.com/channel/UCA-tgW0KfEPSf3QUVkiKPJQ" target="_blank" class="navbar-social-links" alt="YouTube"><span class="fab fa-youtube"> </span></a>
                 </div>
             </div>
         </nav>
